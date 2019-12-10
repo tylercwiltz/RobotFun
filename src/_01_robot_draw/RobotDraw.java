@@ -105,6 +105,14 @@ public class RobotDraw implements KeyEventDispatcher {
 	}
 
 	private void controlTheRobot() {
+		System.out.println( "Directions:\n\n"
+				+ "UP key to move\n"
+				+ "LEFT and RIGHT keys to turn\n"
+				+ "SPACE to draw line\n"
+				+ "U to erase\n"
+				+ "0-9 to change different colors\n"
+				+ "W to change pen width");
+
 		JOptionPane.showMessageDialog(null, "UP key to move\n"
 											+ "LEFT and RIGHT keys to turn\n"
 											+ "SPACE to draw line\n"
